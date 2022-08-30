@@ -18,7 +18,7 @@
 ### How to start FastAPI app?
 
 ```
-$ PYTHONPATH=$(pwd) python app/main.py
+$ uvicorn app.main:app --reload
 ```
 
 ### How to call API?
