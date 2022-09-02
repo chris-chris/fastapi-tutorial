@@ -7,4 +7,4 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "app/main.py"]
+CMD ["uvicorn", "app.main:app"]
